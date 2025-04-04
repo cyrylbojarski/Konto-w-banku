@@ -7,7 +7,7 @@ namespace BankTest
     public class UnitTest1
     {
         [TestMethod]
-        public void Client_with_0_balance()
+        public void Client_with_Negative_balance()
         {
 
 
@@ -16,7 +16,7 @@ namespace BankTest
         }
 
         [TestMethod]
-        public void Wplata_Kwota_0()
+        public void Wplata_Kwota_Negative()
         {
             Konto K1 = new Konto("Qwerty", 500);
 
@@ -26,7 +26,7 @@ namespace BankTest
 
         [TestMethod]
 
-        public void Wyplata_Kwota_0()
+        public void Wyplata_Kwota_Negative()
         {
             Konto K1 = new Konto("Qwerty", 500);
 
